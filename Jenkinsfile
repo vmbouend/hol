@@ -15,7 +15,7 @@ pipeline {
             }
       }
 
-    stages {
+    
         stage('build') {
             steps {
                 echo 'Hello build'
@@ -30,7 +30,7 @@ pipeline {
             }
          }
 
-    stages {
+    
         stage('test') {
             steps {
                 echo 'Hello test'
