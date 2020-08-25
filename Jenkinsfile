@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-      }
+         }
 
     
         stage('build') {
@@ -21,12 +21,13 @@ pipeline {
                 echo 'Hello build'
                 sleep5
             }
-       }
+         }
             
 
         stage('deploy') {
             steps {
                 echo 'Hello deploy'
+                sleep 5
             }
          }
 
